@@ -56,7 +56,7 @@ ROOT_URLCONF = 'TwD.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['TEMPLATE_DIR,']
+        'DIRS': ['templates']
 ,
         'APP_DIRS': True,
         'OPTIONS': {
