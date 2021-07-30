@@ -11,3 +11,7 @@ urlpatterns = [
 urlpatterns = [
 	path('about/', views.about, name='about'),
 ]
+
+#urlpatterns = [
+#	path('rango/', views.index, name='index'),
+#] 加了没用，about报错
